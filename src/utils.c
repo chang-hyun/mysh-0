@@ -8,7 +8,7 @@ void mysh_parse_command(const char* command,
 {
   *argc = 0;
   
-  char cmd[100];
+  char cmd[1000];
   char restraints[] = " \t\n";
   strcpy(cmd, command);
   
